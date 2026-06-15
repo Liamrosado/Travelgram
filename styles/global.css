@@ -1,0 +1,40 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  --text-color-primary: #313131;
+  --text-color-secondary: #6C6C6C;
+  --bg-color:#FFFFFF;
+  --surface-color: #F5F5F5;
+  --skeleton-color: #D9D9D9;
+  --shape-transparency: #ffffff56;
+  --brand-color: #EF5F4C;
+
+  --ff-base: "Poppins", system-ui, sans-serif;
+  --fs-base: .875rem/170%;
+  --fs-sm:.75rem/170%;
+  --fw-lg:800;
+  --fw-base:400;
+
+  --py-base:1rem;
+  --py-lg:2rem;
+
+  --px-base:1rem;
+  --px-lg:2rem;
+
+}
+
+html{
+  font-family:var(--ff-base);
+  font-size: var(--fs-base);
+  font-weight: var(--fw-base);
+  color: var(--text-color-secondary);
+}
+
+h1{
+  font:800 2rem/125% var(--ff-base);
+  color: var(--text-color-primary);
+}
