@@ -14,8 +14,8 @@
   --brand-color: #EF5F4C;
 
   --ff-base: "Poppins", system-ui, sans-serif;
-  --fs-base: .875rem/170%;
-  --fs-sm:.75rem/170%;
+  --fs-base: .875rem;
+  --fs-sm:.75rem;
   --fw-lg:800;
   --fw-base:400;
 
@@ -35,6 +35,27 @@ html{
 }
 
 h1{
-  font:800 2rem/125% var(--ff-base);
+  font:800 1.5rem/125% var(--ff-base);
   color: var(--text-color-primary);
+}
+
+a{
+  text-decoration: none;
+  color: var(--text-color-secondary);
+}
+
+a:hover{
+  color: var(--brand-color);
+  text-decoration: underline;
+}
+
+@media (width >= 80em ){ 
+
+  h1{
+    font: 800 2rem/125% var(--ff-base);
+  }
+}
+
+div{
+  border: 5px solid violet;
 }
