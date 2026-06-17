@@ -1,0 +1,62 @@
+header{
+  background-color: var(--surface-color);
+}
+
+
+
+
+nav{
+  background-color: var(--surface-color);
+  & img:first-child{
+    margin-right: auto;
+  }
+    
+    & img:nth-child(5){
+      width:2.5rem ;
+      height: 2.5rem;
+    }
+}
+  
+.secondary{
+  justify-content: start;
+  grid-template-columns: auto auto;
+  grid-template-rows: repeat(3,auto);
+
+  gap: .5rem;
+
+}
+
+
+@media (width >= 80em){
+  header.py-base, header.px-base{
+    padding-block: 1.25rem;
+    padding-inline: 2rem;
+  }
+
+
+  .main{
+    display: flex;
+    width: 592px;
+    
+    align-items: center;
+    gap:2rem;
+    & div:nth-child(2){
+      gap: .5rem;   
+      & h1{
+        font: 800 2rem/125% var(--ff-base);
+      }
+
+    }
+
+
+    & img{
+      width: 176px;
+      height: 176px;
+    }
+  }
+  
+  #about{
+    display: flex;
+    justify-content: space-between;
+  }
+}

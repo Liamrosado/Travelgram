@@ -32,6 +32,7 @@ html{
   font-size: var(--fs-base);
   font-weight: var(--fw-base);
   color: var(--text-color-secondary);
+   background-color: var(--bg-color);
 }
 
 h1{
@@ -54,8 +55,4 @@ a:hover{
   h1{
     font: 800 2rem/125% var(--ff-base);
   }
-}
-
-div{
-  border: 5px solid violet;
 }

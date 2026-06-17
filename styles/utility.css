@@ -46,13 +46,17 @@
 }
 
 .items-center{
-  justify-content: center;
   align-items: center;
 }
 
 .desktop-only{
   display: none;
 }
+
+.gap-0\.5{
+  gap: .5rem;
+}
+
 
 @media (width >= 80em){
   .container{
