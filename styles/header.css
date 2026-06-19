@@ -1,5 +1,6 @@
 header{
   background-color: var(--surface-color);
+  
 }
 
 
@@ -28,16 +29,19 @@ nav{
 
 
 @media (width >= 80em){
-  header.py-base, header.px-base{
-    padding-block: 1.25rem;
+
+   
+  .px-base{
     padding-inline: 2rem;
   }
-
-
+  
+  .py-base{
+    
+    padding-block: 1.25rem;
+}
   .main{
     display: flex;
     width: 592px;
-    
     align-items: center;
     gap:2rem;
     & div:nth-child(2){

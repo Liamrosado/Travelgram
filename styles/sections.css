@@ -1,0 +1,42 @@
+#viagens{
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+  background-color: var(--bg-color);
+  & img{
+    max-width: 328px;
+    min-height: auto;
+  } 
+}
+
+
+@media (width >= 80em){
+  
+  #viagens{
+    overflow: initial;
+    
+  }
+  
+  .pictures{
+    
+    
+    grid-template-columns: repeat(4,auto);
+    grid-template-rows: repeat(3, auto);
+    gap: 1.5rem;
+    
+   & img{
+    width: 286px;
+    height: 286px;
+    
+   }
+    
+  }
+  
+  .px-base{
+    padding-inline: var(--px-lg);
+  }
+  
+  .py-base{
+    padding-block: var(--py-lg);
+  }
+}
