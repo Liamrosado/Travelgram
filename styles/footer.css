@@ -1,0 +1,32 @@
+footer{
+  width: 138px;
+  flex-flow: wrap;
+  justify-content: center;
+  
+}
+.titulo{
+  justify-self: center;
+  }
+
+
+
+  @media (width >= 80em){
+    footer{
+    justify-content: space-between;
+
+      
+    }
+    
+
+
+    .px-base{
+      padding-inline: var(--px-lg);
+    }
+    .py-base{
+      padding-block: var(--py-lg);
+    }
+    
+    .titulo{
+      justify-self: start;
+    }
+  }
