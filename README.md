@@ -1,1 +1,1 @@
-Projueto travelgram  aplicando responsividade
+Projeto travelgram  aplicando responsividade
